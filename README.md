@@ -1,27 +1,28 @@
 # LoginApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
+This project is a single page application created using angular last standing features
 
-## Development server
+## Run server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run `npm start` for a dev server. The application will open automatically in https://localhost:4200 with live reload for code changes.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `npm run build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Technologies
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Angular CLI v16
+Angular v16
+Typescript v5
+Jasmine v4.6
+Karma v6.4
+Rxjs v7.8
 
-## Running end-to-end tests
+## Incoming features (UX)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Adapt app for mobile devices
 
-## Further help
+- Add css for user interactions, ex: focus/lost focus
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Add dictionary for multiple language support
