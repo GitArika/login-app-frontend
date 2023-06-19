@@ -1,15 +1,27 @@
-.content {
+button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 250px;
+  background-color: #ffffff;
+  color: #0070cc;
+}
+
+button:hover {
+  transition: font-size 0.2s ease-in;
+  transition: background-color 0.3s ease-in, color 0.2s ease-in;
+  background-color: #0070cc;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.row {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-
-  background-color: #fff;
-
-  padding: 150px 200px;
-
-  width: 100%;
-  height: fit-content;
-
-  margin: 0;
+  flex-direction: column;
+  label {
+    margin: 0;
+    margin-top: 1rem;
+    color: #00449c;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+  }
 }

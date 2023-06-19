@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 import { LoginComponent } from './login.component';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginService } from 'src/app/services/login.service';
-import { AdvertisingComponent } from './viewchild/advertising/advertising.component';
 import { LoginFormComponent } from './viewchild/login-form/login-form.component';
+import { AdvertisingModule } from 'src/app/components/advertising/advertising.module';
 
 const routes: Routes = [
   {
@@ -14,8 +14,9 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [AdvertisingComponent, LoginComponent, LoginFormComponent],
-  imports: [CommonModule, RouterModule.forChild(routes)],
+  declarations: [LoginComponent, LoginFormComponent],
+  imports: [CommonModule, AdvertisingModule, RouterModule.forChild(routes)],
+  exports: [RouterModule],
   providers: [LoginService],
 })
 export class LoginModule {}

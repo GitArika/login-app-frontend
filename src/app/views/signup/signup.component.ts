@@ -2,15 +2,15 @@ import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html',
-  styleUrls: ['./login.component.scss'],
+  selector: 'app-signup',
+  templateUrl: './signup.component.html',
+  styleUrls: ['./signup.component.scss'],
 })
-export class LoginComponent {
-  private signup: string = 'signup';
+export class SignupComponent {
+  private login: string = 'login';
   constructor(private route: ActivatedRoute, private router: Router) {}
 
   navigate(): void {
-    this.router.navigate([this.signup]);
+    this.router.navigate([this.login]);
   }
 }

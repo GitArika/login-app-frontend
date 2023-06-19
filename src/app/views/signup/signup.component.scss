@@ -1,29 +1,74 @@
-.login-form {
+.content {
+  justify-content: space-between;
+
+  h1 {
+    font-size: 32px;
+    color: #00439c;
+    margin-bottom: 2rem;
+  }
+
+  .space {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      margin: 0;
+      margin-top: 1rem;
+      color: #00449c;
+      font-weight: 300;
+      letter-spacing: 0.5px;
+    }
+
+    button {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      width: 250px;
+      background-color: #ffffff;
+      color: #0070cc;
+    }
+
+    button:hover {
+      transition: font-size 0.2s ease-in;
+      transition: background-color 0.3s ease-in, color 0.2s ease-in;
+      background-color: #0070cc;
+      color: #ffffff;
+      font-size: 15px;
+    }
+  }
+}
+
+.about {
+  flex: 1;
+}
+
+.form {
+  flex: 1;
+  margin: 0;
+  padding: 40px 250px;
+
   background: rgb(0, 67, 156);
   background: linear-gradient(
     300deg,
     rgba(0, 67, 156, 1) 55%,
     rgba(0, 94, 175, 1) 100%
   );
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: #fff;
 
-  width: fit-content;
-  min-width: 750px;
-  height: fit-content;
-  min-height: 590px;
-  padding: 40px 250px;
+  border: none;
   border-radius: 8px;
 
-  h1 {
-    font-weight: 300;
+  justify-self: center;
+
+  width: fit-content;
+  max-width: 750px;
+  height: fit-content;
+
+  h2 {
     font-size: 32px;
+    font-weight: 300;
     border-bottom: 1px solid;
     border-color: #fff;
     padding-bottom: 1rem;
-
     strong {
       font-weight: 500;
     }
@@ -32,7 +77,7 @@
   label {
     display: block;
     color: #dedede;
-    font-weight: regular;
+    font-weight: 400;
   }
 
   input {
@@ -107,6 +152,12 @@
     margin-top: 1rem;
     label {
       color: #fff;
+    }
+    p {
+      font-weight: 500;
+      font-size: 14px;
+      color: #ffffffa9;
+      margin-bottom: 1rem;
     }
   }
 
