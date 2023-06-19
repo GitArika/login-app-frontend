@@ -1,0 +1,15 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #fff;
+
+  padding: 150px 200px;
+
+  width: 100%;
+  height: fit-content;
+
+  margin: 0;
+}

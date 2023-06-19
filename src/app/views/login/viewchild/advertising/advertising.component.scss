@@ -1,0 +1,42 @@
+.advertising {
+  h1 {
+    color: #00439c;
+    padding: 2rem 0;
+  }
+
+  h2 {
+    padding: 1rem 0;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  p {
+    padding: 2px 0;
+    color: #121212ad;
+  }
+
+  label {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #00449c;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+  }
+
+  button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 250px;
+    background-color: #ffffff;
+    color: #0070cc;
+  }
+
+  button:hover {
+    transition: font-size 0.2s ease-in;
+    transition: background-color 0.3s ease-in, color 0.2s ease-in;
+    background-color: #0070cc;
+    color: #ffffff;
+    font-size: 15px;
+  }
+}
