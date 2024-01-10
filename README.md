@@ -21,8 +21,4 @@ Rxjs v7.8
 
 ## Incoming features (UX)
 
-- Adapt app for mobile devices
-
-- Add css for user interactions, ex: focus/lost focus
-
-- Add dictionary for multiple language support
+- multiple language support
