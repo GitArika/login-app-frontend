@@ -1,6 +1,6 @@
-# LoginApp
+# About
 
-This project is a single page application created using angular last standing features
+This project is a single page application created using angular last standing features.
 
 ## Run server
 
